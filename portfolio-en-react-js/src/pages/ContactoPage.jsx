@@ -4,12 +4,15 @@ export const ContactoPage = () => {
       <link rel="stylesheet" href="./src/styles/styles.css" />
 
       <section id="contacto">
+        <div>
         <div className="container">
           <h2>Contacto</h2>
           <p>
             ¡Estoy emocionado de trabajar contigo! Si estás interesado en
             colaborar o tienes alguna pregunta, no dudes en contactarme.
           </p>
+          <br/>
+          </div>
           <form>
             <input type="text" placeholder="Nombre" />
             <input type="email" placeholder="Correo electrónico" />

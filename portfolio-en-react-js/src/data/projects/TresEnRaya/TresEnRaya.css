@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-.body{
-    background-image:url(https://previews.123rf.com/images/sentavio/sentavio1605/sentavio160500432/56931537-isom%C3%A9trica-estilo-3d-plana-ir-reglas-del-plan-patio-de-recreo-fuera-de-la-ilustraci%C3%B3n-concepto-de-in.jpg)
+.background{
+    background-image: url(./../../../assets/img/TresEnRayaBackground.jpg);
+    background-size: cover;
 
 }
 
@@ -16,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    gap:2rem;
     text-align: center;
 
 }
@@ -52,8 +54,14 @@
     
 }
 
-.container{
+.container-xl{
     display: inline-flex;
+    
+
+}
+.container-xl div{
+margin-inline: 10px;   
+font-size: large; 
 
 }
 
