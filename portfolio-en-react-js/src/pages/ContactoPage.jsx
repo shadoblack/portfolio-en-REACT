@@ -14,7 +14,7 @@ export const ContactoPage = () => {
             <input type="text" placeholder="Nombre" />
             <input type="email" placeholder="Correo electrónico" />
             <textarea placeholder="Mensaje"></textarea>
-            <button type="submit">Enviar</button>
+            <button className="btn btn-secondary"type="submit">Enviar</button>
           </form>
         </div>
       </section>

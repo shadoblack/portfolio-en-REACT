@@ -1,0 +1,24 @@
+[
+    {
+      "nombre": "Tres en Raya",
+      "Descripcion": "Un projecto hecho inicialmente en JS",
+      "direccion": "/TresEnRaya",
+      "miniatura": "imagen-proyecto-1.jpg"
+    },
+    {
+        "nombre": "proyecto 2",
+        "Descripcion": "Proyecto 2 desc",
+        "direccion": "/proyecto-2",
+        "miniatura": "imagen-proyecto-2.jpg"
+      },{
+        "nombre": "proyecto 3",
+        "Descripcion": "Proyecto 3 desc",
+        "direccion": "/proyecto-3",
+        "miniatura": "imagen-proyecto-3.jpg"
+      },{
+        "nombre": "proyecto 4",
+        "Descripcion": "Proyecto 4 desc",
+        "direccion": "/proyecto-4",
+        "miniatura": "imagen-proyecto-4.jpg"
+      }
+  ]

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-image:url(https://previews.123rf.com/images/sentavio/sentavio1605/sentavio160500432/56931537-isom%C3%A9trica-estilo-3d-plana-ir-reglas-del-plan-patio-de-recreo-fuera-de-la-ilustraci%C3%B3n-concepto-de-in.jpg)
+
+}
+
+.contenedor-juego{
+    height:100vh;
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+
+}
+
+.juego-titulo, .juego-info{
+    text-align: center;
+}
+
+.juego-cuadricula{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:0;
+}
+
+.cuadro{
+    width:9rem;
+    height: 9rem;
+    border: 5px solid rgb(168, 168, 168);
+    text-align: center;
+    font-size: 75px;
+    color:rgb(7, 255, 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: background-color ease-in 0.2s;
+}
+
+.cuadro:hover{
+   
+    background-color:#cccc;
+    
+}
+
+.container{
+    display: inline-flex;
+
+}
+
+.juego-boton{
+    display:inline-flex;
+    border-radius: 4px;
+    padding: 1rem 1rem;
+    background:red ;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    font-weight: bold;
+    transition:color ease-out 0.3s;
+   
+}
+
+.juego-boton:hover{
+  
+    background:white ;
+    color: red;
+    border: 1px solid red;
+   
+}
