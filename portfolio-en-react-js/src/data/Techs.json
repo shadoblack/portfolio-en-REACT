@@ -1,12 +1,87 @@
 [
-    {
-      "imgSrc": "https://placehold.co/600x400/png",
-      "title": "Título de tarjeta 1",
-      "text": "Descripción de tarjeta 1"
-    },
-    {
-      "imgSrc": "https://placehold.co/600x400/png",
-      "title": "Título de tarjeta 2",
-      "text": "Descripción de tarjeta 2"
-    }
-  ]
+  {
+    "imgSrc": "./src/assets/img/angular.svg",
+    "title": "Angular",
+    "text": "Creación, adaptación y optimización de módulos, así como creación de nuevos componentes.",
+    "exp": "1 año"
+  },
+  {
+    "imgSrc": "./src/assets/img/React-icon.svg",
+    "title": "REACT",
+    "text": "Probando de adaptar código a REACT, Hooks,components,etc, al igual que la creación de proyectos nuevos.",
+    "exp": "1 mes"
+  },
+  {
+    "imgSrc": "./src/assets/img/Javascript_badge.svg",
+    "title": "JavaScript",
+    "text": "Lenguaje madre de todos mis proyectos, todos se basan en JavaScript.",
+    "exp": "3 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/Typescript_logo_2020.svg",
+    "title": "TypeScript",
+    "text": "El JS más tipado, dependiendo del proyecto, lo uso, en caso de Angular, es mandatorio.",
+    "exp": "2 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/Bootstrap_logo.svg",
+    "title": "BootStrap",
+    "text": "Mi amigo de pruebas por excelencia, me permite rapidamente montar fronts básicos para ir modificándolos.",
+    "exp": "2 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/HTML5_logo_and_wordmark.svg",
+    "title": "HTML",
+    "text": "El indispensable, en todo lo relacionado con web.",
+    "exp": "5 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/CSS.3.svg",
+    "title": "CSS",
+    "text": "El compañero de HTML, propiedades,flexbox,grid,etc.",
+    "exp": "3 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/sql-database-generic-svgrepo-com.svg",
+    "title": "SQL",
+    "text": "Una de las bases de datos relacional con las que he trabajado.Desde gestionarlas hasta hacer consultas.",
+    "exp": "1 año"
+  },{
+    "imgSrc": "./src/assets/img/MongoDB_Logo.svg",
+    "title": "MongoDB",
+    "text": "Base de datos no relacional con la que he trabajado una temporada. Tanto gestión como consultas.",
+    "exp": "1 año"
+  },
+  {
+    "imgSrc": "./src/assets/img/jquery-svgrepo-com.svg",
+    "title": "Jquery",
+    "text": "Selección y edición de elementos DOM con él.",
+    "exp": "2 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/Node.js_logo.svg",
+    "title": "NodeJS",
+    "text": "El entorno de ejecución que suelo usar siempre.Dominio del NPM.",
+    "exp": "1 año"
+  },
+  {
+    "imgSrc": "./src/assets/img/PHP-logo.svg",
+    "title": "PHP",
+    "text": "No he tenido mucho contacto con él, pero algún proyecto he tocado.",
+    "exp": "1 año"
+  },
+  
+  
+  {
+    "imgSrc": "./src/assets/img/Octicons-mark-github.svg",
+    "title": "GitHub",
+    "text": "Mi Principal portal de desarrollo en el cual suelo subir mis repositorios.Uso de comandos,branch,commits...",
+    "exp": "2 años"
+  },
+  {
+    "imgSrc": "./src/assets/img/rest-api-logo.svg",
+    "title": "REST-API",
+    "text": "He trabajado también con SOAP pero prefiero éste, es más rápido y ligero y permite un desarrollo en dispositivos móviles.",
+    "exp": "2 años"
+  }
+]

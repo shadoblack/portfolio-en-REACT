@@ -1,6 +1,15 @@
-
-import Techs from "./../data/Techs.json"
+import Techs from "./../data/Techs.json";
+import { useState } from "react";
 export const InicioPage = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
+  const handleMouseEnter = (index) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
   return (
     <>
       <meta charSet="UTF-8" />
@@ -16,24 +25,36 @@ export const InicioPage = () => {
             digitales.
           </p>
 
-          <p>Trabajo en las siguientes tecnologías:</p>
-       </div>
-       <div className="contenedor-tarjetas">
+          <p>Trabajo en las siguientes tecnologías, con experiencias diversas tales como:</p>
+        </div>
+        <div className="contenedor-tarjetas">
           {Techs.map((Techs, index) => (
-            <div className="card" style={{ width: '18rem' }} key={index}>
-              <img className="card-img-top" src={Techs.imgSrc} alt="Card image cap" />
-              <div className="card-body">
+            <div
+              className="card"
+              style={{ width: "18rem" }}
+              key={index}
+              onMouseEnter={() => handleMouseEnter(index)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img
+                className="card-img-top"
+                src={Techs.imgSrc}
+                alt="Card image cap"
+              />
+              <div
+                className={`card-body ${
+                  hoveredIndex === index ? "show" : "hide"
+                }`}
+              >
                 <h5 className="card-title">{Techs.title}</h5>
                 <p className="card-text">{Techs.text}</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <span className="btn btn-outline-primary rounded-circle p-2">{Techs.exp}</span>
+
               </div>
             </div>
           ))}
-</div>
-
-      
+        </div>
       </section>
-      
     </>
   );
 };

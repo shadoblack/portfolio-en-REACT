@@ -9,7 +9,7 @@ export const ContactoPage = () => {
           <h2>Contacto</h2>
           <p>
             ¡Estoy emocionado de trabajar contigo! Si estás interesado en
-            colaborar o tienes alguna pregunta, no dudes en contactarme.
+            colaborar o tienes alguna pregunta, no dudes en contactarme.En construcción.
           </p>
           <br/>
           </div>

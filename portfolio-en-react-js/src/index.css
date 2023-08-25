@@ -12,7 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  animation-name: animate__fadeIn;
+  animation-duration: 1s;
 }
+
 
 a {
   font-weight: 500;
@@ -67,3 +70,5 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+

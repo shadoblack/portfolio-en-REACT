@@ -3,6 +3,9 @@ import datos from "./../data/projects.json";
 export const ProyectosPage = () => {
   return (
     <>
+          <link rel="stylesheet" href="./src/styles/ProyectosPage.css" />
+
+    <div className="container">
       <div
         id="carouselExampleDark"
         className="carousel carousel-dark slide"
@@ -67,6 +70,7 @@ export const ProyectosPage = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
+      </div>
       </div>
     </>
   );
