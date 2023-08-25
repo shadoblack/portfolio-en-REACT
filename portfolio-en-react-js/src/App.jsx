@@ -14,6 +14,7 @@ function App() {
 
         <Menu />
             <Routes>
+            <Route exact path="/" element={<InicioPage />} />
               <Route path="/inicio" element={<InicioPage />} />
               <Route path="/proyectos" element={<ProyectosPage />} />
               <Route path="/sobre-mi" element={<SobreMiPage />} />

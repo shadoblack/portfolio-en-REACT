@@ -1,0 +1,12 @@
+[
+    {
+      "imgSrc": "https://placehold.co/600x400/png",
+      "title": "Título de tarjeta 1",
+      "text": "Descripción de tarjeta 1"
+    },
+    {
+      "imgSrc": "https://placehold.co/600x400/png",
+      "title": "Título de tarjeta 2",
+      "text": "Descripción de tarjeta 2"
+    }
+  ]
