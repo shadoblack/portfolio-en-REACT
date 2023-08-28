@@ -48,7 +48,7 @@ export const InicioPage = () => {
               >
                 <h5 className="card-title">{Techs.title}</h5>
                 <p className="card-text">{Techs.text}</p>
-                <span className="btn btn-outline-primary rounded-circle p-2">{Techs.exp}</span>
+                <span id="exp" className="btn btn-outline-primary rounded-circle p-4">{Techs.exp}</span>
 
               </div>
             </div>

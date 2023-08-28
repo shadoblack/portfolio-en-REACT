@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/*Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -30,8 +31,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-image: url(https://media.tenor.com/cW8fXoULgr8AAAAC/developers.gif);
+  background-size: repeat;
+  height: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -113,3 +116,5 @@ button:focus-visible {
   font-weight: bold;
   text-align: center;
 }
+
+

@@ -47,7 +47,7 @@ body {
   }
   
   section {
-    padding: 40px 0;
+    padding: 40px ;
     
     
   }
@@ -119,4 +119,36 @@ body {
   padding: 10px;
   margin-bottom: 10px;
 }
+
+.container-sobre-mi{
+  
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 150px;
+  height: 100vh;
+  
+}
+.container-contacto {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 150px;
+  height: 100vh;
+}
+
+#foto-perfil{
+  border-radius: 100%;
+  align-items: start;
+}
+
+#align-left{
+  flex: auto;
+  flex-direction: initial;
+  align-content: left
+;
+}
+
+
+
 

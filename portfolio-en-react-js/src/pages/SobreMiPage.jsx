@@ -4,12 +4,17 @@ export const SobreMiPage = () => {
       {" "}
       <link rel="stylesheet" href="./src/styles/styles.css" />
       <section id="sobre-mi">
-        <div className="container">
-          <h2>Sobre mí</h2>
+      
+<div id="align-left">
+        <img src="https://placehold.co/200x200" id="foto-perfil"></img>
+        </div>
+        <div className="container-sobre-mi">
+        <h2>Sobre mí</h2>
           <p>
             Soy un apasionado desarrollador web con experiencia en HTML, CSS y
             JavaScript. Me encanta crear sitios web atractivos y funcionales.en construcción.
           </p>
+          
         </div>
       </section>
     </>
