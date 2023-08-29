@@ -1,8 +1,8 @@
+import "./../styles/SobreMiPage.css"
 export const SobreMiPage = () => {
   return (
     <>
       {" "}
-      <link rel="stylesheet" href="./src/styles/styles.css" />
       <section id="sobre-mi">
       
 <div id="align-left">

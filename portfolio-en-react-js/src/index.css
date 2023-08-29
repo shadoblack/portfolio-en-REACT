@@ -74,47 +74,6 @@ button:focus-visible {
   }
 }
 
-.contenedor-tarjetas {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 10px;
-  padding: 10px;
-}
 
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-}
-
-.card .card-img-top {
-  transition: opacity 0.3s ease;
-}
-
-.card:hover .card-img-top {
-  opacity: 0.3;
-}
-
-.card-body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  padding: 10px;
-}
-
-.card:hover .card-body {
-  opacity: 1;
-}
-
-.card-title,
-.card-text {
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
 
 

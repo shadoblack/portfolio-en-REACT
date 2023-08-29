@@ -1,9 +1,9 @@
+import "./../styles/ProyectosPage.css"
 import { Link } from "react-router-dom";
 import datos from "./../data/projects.json";
 export const ProyectosPage = () => {
   return (
     <>
-          <link rel="stylesheet" href="./src/styles/ProyectosPage.css" />
 
     <div className="container">
       <div

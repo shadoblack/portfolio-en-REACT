@@ -1,8 +1,9 @@
 .contenedor-tarjetas {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
-    gap: 10px;
-    padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
   }
   
   .card {
@@ -10,8 +11,8 @@
     display: flex;
     flex-direction: column;
     margin: 10px;
-    height: 410px;
-    width: 200px;
+    height: 400px;
+    width: 250px;
     align-items: center;
     background-color: transparent;
   }
@@ -42,7 +43,10 @@
   
   .card-title,
   .card-text {
-    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(60, 255, 0);
+    text-shadow: 0 0 10px #02ff2c, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00;
+    font-size: 32;
     font-weight: bold;
     text-align: center;
   }
@@ -52,15 +56,18 @@
     text-align: center;
     justify-content: center;
     display: flex;
-    height: 100%; 
-    width: 100%; 
-    margin: 15px 15px 15px 15px;
+     
+  
   }
 
-  .inicio{
+  #inicio{
     align-items: center;
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
+  
 
   #exp{
     background-color: blue;
@@ -70,4 +77,41 @@
     align-items: center;
   }
  
-  
+  #display-top{
+    display: flex;
+    top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(66, 255, 9, 0.788);
+    text-shadow: 0 0 10px #02ff2c, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00;
+    font-size: 48;
+    
+    
+  }
+
+  #display-mid{
+    top:25%;
+    display: flex;
+    margin-bottom: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(66, 255, 9, 0.788);
+    text-shadow: 0 0 10px #02ff2c, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00;
+    font-size: 32;
+    margin-left: 25px;
+  }
+
+  .container-palabras{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 10px;
+    height: 25vh;
+    justify-content: center;
+    
+  }
+
+  #center{
+    align-items: center;
+    align-content: center;
+  }
+

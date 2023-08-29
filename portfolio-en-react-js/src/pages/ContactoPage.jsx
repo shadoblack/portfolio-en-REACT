@@ -1,7 +1,7 @@
+import "./../styles/ContactoPage.css"
 export const ContactoPage = () => {
   return (
     <>
-      <link rel="stylesheet" href="./src/styles/styles.css" />
 
       <section id="contacto">
         <div>

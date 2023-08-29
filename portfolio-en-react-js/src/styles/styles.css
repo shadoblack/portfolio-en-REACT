@@ -82,7 +82,6 @@ body {
   }
   
   .project a {
-    display: inline-block;
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
