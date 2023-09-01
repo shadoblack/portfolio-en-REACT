@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: black;
     
 }
 
-.background{
-    background-image: url(./../../../assets/TresEnRayaBackground.jpg);
-    background-size: cover;
 
-}
 
 .contenedor-juego{
     height:100vh;

@@ -12,7 +12,7 @@ export const SobreMiPage = () => {
         <h2>Sobre mí</h2>
           <p>
             Soy un apasionado desarrollador web con experiencia en HTML, CSS y
-            JavaScript. Me encanta crear sitios web atractivos y funcionales.en construcción.
+            JavaScript. Me encanta crear sitios web atractivos y funcionales.
           </p>
           
         </div>

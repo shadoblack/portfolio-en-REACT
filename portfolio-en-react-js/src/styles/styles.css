@@ -1,6 +1,11 @@
 /* Estilos generales */
 
-
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(66, 255, 9, 0.788);
+  text-shadow: 0 0 10px #02ff2c, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00;
+  font-size: 32;
+}
 body {
     font-family: Arial, sans-serif;
     color: white;

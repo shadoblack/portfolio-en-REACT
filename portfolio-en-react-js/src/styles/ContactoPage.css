@@ -1,0 +1,5 @@
+.form ,input,textarea,button{
+    color: white;
+    text-shadow: none;
+    padding: 5px;
+}
