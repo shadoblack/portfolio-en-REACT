@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// eslint-disable-next-line no-unused-vars
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { Menu } from './components/Menu';
 import { InicioPage } from './pages/InicioPage';
 import { ProyectosPage } from './pages/ProyectosPage';
@@ -20,6 +21,9 @@ function App() {
               <Route path="/sobre-mi" element={<SobreMiPage />} />
               <Route path="/contacto" element={<ContactoPage />} />
               <Route path="/TresEnRaya" element={<TresEnRaya />} />
+              <Route path="/TiendaRopa" element={<div>
+                {window.location.replace('https://carrito-compra-react.netlify.app/')}
+              </div>} />
             </Routes>
       </div>
     );

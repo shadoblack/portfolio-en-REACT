@@ -6,9 +6,9 @@
       "miniatura": "imagen-proyecto-1.jpg"
     },
     {
-        "nombre": "proyecto 2",
-        "Descripcion": "Proyecto 2 desc",
-        "direccion": "/proyecto-2",
+        "nombre": "Tienda de ropa",
+        "Descripcion": "Un proyecto básico de una tienda de ropa en React",
+        "direccion": "/TiendaRopa",
         "miniatura": "imagen-proyecto-2.jpg"
       },{
         "nombre": "proyecto 3",
